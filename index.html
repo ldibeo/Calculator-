@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="angular-material.min.css">
+    <script src="angular-animate.min.js"></script>
+    <script src="angular-aria.min.js"></script>
+    <script src="angular-material.min.js"></script>
+    <link rel="stylesheet" href="document.css">
+    
+</head>
+<body ng-app="myApp" ng-controller="Ctrl1">
+    
+    <h1 class="header">Calculator</h1>
+    
+    <md-divider></md-divider>
+    <br>
+
+
+<!-- ------------------------ -->
+
+    <div class="gridTot">
+        <md-button
+        id="{{'ID'+$index}}"
+        class="md-raised {{'bottone'+$index}}"
+        md-colors = "{{ indentifier($index) }}"
+        ng-repeat="x in bottoni track by $index" 
+        ng-click="getItFunc($index)">
+            {{ x }} 
+        </md-button>
+    </div>
+
+        <br> <br>
+        <div ng-repeat="x in numbs track by $index">
+            {{ valDisplay[$index] }}
+        </div>
+        
+        
+        
+<!--  --------------------------------------------------------  -->
+    
+
+
+
+</body>
+</htm

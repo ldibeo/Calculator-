@@ -1,0 +1,78 @@
+h1 {
+    font-family: Roboto, Arial;
+}
+
+.header {
+    margin-left: 50px;
+}
+
+.md-button {
+padding: 0 0px 0 0px;
+margin: 6px 8px 6px 8px;
+min-width: 50px;
+border-radius: 3px;
+font-size: 14px;
+border-radius: 20px;
+text-align: center;
+text-transform: uppercase;
+text-decoration:none;
+border: none;
+outline: none;
+}
+
+/* ************************************ */
+
+.gridTot {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+}
+
+.bottone16 {
+    width: 110px;
+}
+
+.bottone17 {
+    margin-left: 68px;
+}
+
+.bottone18 {
+    margin-left: 68px;
+}
+
+
+
+/* ************************************ */
+
+
+
+
+.gridSimbs {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+.gridNumbs {  
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+
+.rigaSopra {
+    display: inline-block;
+    width: 180px;
+}
+
+.division {
+    display: inline-block;
+    width: 60px;
+}
+
+.btnZero {
+    width: 115px;
+}
+
+.tastieraPrincipale {
+    display: inline-block;
+}
+
+.operazioni {
+    display: inline;
+}
